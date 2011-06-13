@@ -1,0 +1,46 @@
+@font-face {
+	font-family: ArialNueva;
+	src: url("fonts/hum521l-webfont.eot"); /** Para o maldito do IE **/
+}
+@font-face {
+	font-family: ArialNueva;
+	src: url("fonts/hum521l-webfont.ttf");
+}
+
+* {
+	margin:0;
+	padding:0;
+	font-family:ArialNueva;
+	list-style:none;
+}
+
+body {
+	margin:20px;
+}
+
+.menu_global {
+padding:10px;border:1px dashed;
+
+}
+
+.conteudo {
+border:1px dashed green;
+}
+
+.mleft {
+border:1px solid red;
+width:200px;
+padding:10px;
+float:left;
+}
+
+.meio {
+margin-left:230px;
+border:2px solid blue;
+margin-right:10px;
+}
+
+.footer {
+padding:20px;border:1px dashed;
+}
+
