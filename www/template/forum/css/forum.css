@@ -1,0 +1,41 @@
+.forum-panel {
+margin-bottom:10px;
+}
+
+.forum-config {float:right;}
+
+.forum-logo {
+float:left
+}
+
+.forum {
+background-color:#B1CAD6;padding:5px;margin-top:5px;
+}
+.forum .forum-messages {background-color:#C6E7F7;padding:3px;}
+.messages-count {font-size:13px;float:right;}
+
+.mensagem {
+padding:1px;
+}
+.mensagem:hover {
+background-color:#5092B7;
+}
+
+.mensagem .item,.mensagem .post  {
+background-color:white;padding:3px;min-height:45px;
+}
+
+.mensagem .item:hover {background-color:#FFFFC8;}
+.mensagem .item .imagem-perfil,.mensagem .post .imagem-perfil {float:left;margin-right:5px;}
+.postagem-info {float:right;text-align:right;margin-right:3px;}
+.postagem-info b {font-size:20px;}
+.star {float:left;padding-top:3px;margin-right:5px;}
+.mensagem .item h2,.mensagem .post h2 {margin:0;padding:0;font-size:18px;}
+.post-from {font-size:12px}
+.post-update {font-size:12px;}
+.post-url {text-decoration:none;}
+.post-content {margin-left:55px;}
+
+/* only mensagem */
+.post-titulo {font-size:25px}
+ 

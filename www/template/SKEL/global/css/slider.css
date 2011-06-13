@@ -1,0 +1,63 @@
+#numeracao a,#numeracao a:active,#numeracao a:visited
+{
+	font-family: Verdana, Monospace;
+	color: #505050;
+	text-decoration: none;
+}
+
+#numeracao a:hover
+{
+	text-decoration: underline;
+	color: #000;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#slider
+{
+	width: 822px;
+	height: 283px;
+	margin:0 auto;
+}
+
+#slider .banner
+{
+position:absolute;
+z-index:0;
+}
+
+ul#numeracao
+{
+    padding: 0;
+    text-align:right;
+    position:relative;
+    right:0;
+    padding-top:265px;
+}
+
+
+
+#numeracao li
+{
+	padding: 0 3px 0 3px;
+	color: #505050;
+	display: inline;
+	list-style-type: none;
+
+}
+
+#numeracao li:hover
+{
+	color: #000;
+}
+
+.banner img
+{
+	width: 822px;
+	height: 283px;
+}

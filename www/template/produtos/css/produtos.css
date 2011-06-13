@@ -1,0 +1,35 @@
+#caminho a { color:#636568;font-size:13px;font-family:arial;text-decoration:none; }
+
+#caminho a.voltar {color:#0030ff;float:right;}
+
+#caminho {padding-bottom:3px;border-bottom:1px solid #e6e6e6;margin-bottom:23px;}
+
+#filtro {
+background-color:#f5f5f5;
+color:#636568;padding:10px;height:20px;font-size:13px;
+margin:20px 0;
+}
+#filtro select {width:200px;margin:0 10px;}
+
+#filtro span.paginacao {float:right;}
+
+h2 {color:#119cc9;}
+
+ul.produtos h2 {padding:15px 0;font-size:19px;}
+
+ul.produtos .item {
+list-style:none;margin-bottom:10px;height:182px;
+}
+
+ul.produtos .item p {height:100px;}
+
+.produtos .item img {
+width:180px;height:180px;
+float:left;border:1px solid #e6e6e6;margin-right:5px;
+}
+
+ul.produtos .item .base {margin-left:190px;text-align:right;height:26px;}
+
+    
+ul.produtos .item .base .botaoverde,ul.produtos .item .base .botaocinza {float:right;
+    }

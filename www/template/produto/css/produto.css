@@ -1,0 +1,106 @@
+#caminho a { color:#636568;font-size:13px;font-family:arial;text-decoration:none; }
+
+#caminho a.voltar {color:#0030ff;float:right;}
+
+#caminho {padding-bottom:3px;border-bottom:1px solid #e6e6e6;margin-bottom:23px;}
+
+.dados {
+float:left;
+width:570px;
+}
+
+.dados .galleria {
+border:1px solid #e6e6e6;
+width:570px;
+height:395px;
+margin-bottom:20px;
+}
+
+.dados .pequena {
+border:1px solid #e6e6e6;
+width:42px;height:42px;float:left;margin-right:5px;
+}
+
+.ficha {float:left;margin-left:20px;width:230px;}
+.ficha h1 {color:#119cc9;font-size:19px;margin-bottom:10px;}
+.ficha p {margin-bottom:20px;}
+
+/* Tabs */
+#box_tabs {
+    font-size: 12px;
+    /*background-color:green;*/
+    /*height:100px;*/
+    /*border:1px solid;*/
+    margin-bottom:5px;
+    display:table;
+    width:100%;
+    margin-top:50px;
+}
+
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 34px; /*--Set height of tabs--*/
+    border: 0;
+    width:100%;
+    border-bottom:1px solid #e6e6e6;
+}
+
+ul.tabs li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    /*height: 16px;*/
+     /*--Subtract 1px from the height of the unordered list--*/
+    border: 0;
+    overflow: hidden;
+    height:14px;
+    padding:10px 30px;
+    font-size:14px;font-weight:bold;
+    background-color:#cbcbcb;
+    margin-right:3px;
+    border:1px solid #e6e6e6;
+
+}
+
+ul.tabs li a {
+    text-decoration: none;
+    color: #6d6d6d;
+    display: block;
+    padding: 0;
+    /*border: 1px solid #fff;*/ /*--Gives the bevel look with a 1px white border inside the list item--*/
+    outline: none;
+}
+
+ul.tabs li a:hover {
+}
+
+ul.tabs li.active a,ul.tabs li.active, ul.tabs li.active a:hover { /*--Makes sure that the active tab does not listen to the hover properties--*/
+    background: #fff;
+    height:14px;
+    color:#119cc9;
+    /*border-bottom: 1px solid #fff;*/
+     /*--Makes the active tab look like it's connected with its content--*/
+}
+
+.tab_container {
+    /*border-top: 1px;*/
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+
+.tab_content {
+    font-size: 12px;
+    border:1px solid #e6e6e6;border-top:0;
+    padding:5px;
+}
+
+/* / Tabs */
+
+
+.botaocinza,.botaoverde {margin-bottom:5px;}
