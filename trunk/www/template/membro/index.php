@@ -11,5 +11,6 @@ if($tempo==0)
 	$tempo = "há pouco tempo";
 }elseif($tempo==1){$tempo = " apenas 1 ano";}else{$tempo = " há $tempo anos";}
 echo "Membro " . $tempo."<br>";
-echo "Desde: " . date("d/m/Y",$data);
+echo "Desde: " . date("d/m/Y",$data).'<br>';
+echo "Já contribuiu com " . $membro['posts'] . ' posts';
 
