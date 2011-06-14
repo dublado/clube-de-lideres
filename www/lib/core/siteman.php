@@ -30,6 +30,7 @@ class siteman extends Utils
 
 			//var_dump($args);
 			$meta[] = '<meta http-equiv="Content-Type" content="text/html; charset=utf-8">';
+			$meta[] = '<meta http-equiv="CONTENT-LANGUAGE"  content="pt-br">';
 			$meta[] = '<meta name="keywords" lang="pt-br" content="PALAVRAS, CHAVE, POR, VIRGULA"/>';
 			if(isset($args['description'])){ $meta[] = '<meta name="description" content="'.$args['description'].'" />'; }
 

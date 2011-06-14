@@ -27,8 +27,13 @@ class membro extends siteman
 		$sql = "select * from membros_tempo where concat(membros_tempo.login,' ',membros_tempo.email) like '%$membro%'";//echo $sql;
 		$rss = $this->bd->query($sql);
 		$membro = $rss->fetchObject();	
-
-		return array('resultado'=>$membro);
+		
+		$sql = "select count(*) as qtd from forumm where membro like  '%$$nome%'";//error_log($sql);
+		$rss = $this->bd->query($sql);
+		$posts = $rss->fetchObject();
+		$posts = $posts->qtd;	
+		
+		return array('resultado'=>$membro,'posts'=>$posts);
 		
 	}
 	
